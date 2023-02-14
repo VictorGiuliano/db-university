@@ -16,7 +16,7 @@ SELECT id,name,period,year FROM `courses` WHERE period LIKE 'I s%' AND year = 1;
 SELECT * FROM `exams` WHERE HOUR(hour) >= HOUR("14:00:00") AND date = '2020/06/20';
 
 -- 6. Selezionare tutti i corsi di laurea magistrale (38)
-
+SELECT name,level FROM `degrees` WHERE level = 'magistrale';
 
 -- 7. Da quanti dipartimenti è composta l'università? (12)
 
